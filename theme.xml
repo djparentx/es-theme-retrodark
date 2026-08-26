@@ -35,7 +35,7 @@
    <view name="system">
       <helpsystem name="help">
          <fontPath>./_inc/fonts/Versatile Bold.ttf</fontPath>
-         <fontSize>0.03</fontSize>
+         <fontSize>0.022</fontSize>
          <pos>0.515 0.955</pos>
          <origin>0.5 0.5</origin>
          <textColor>ffffff</textColor>
@@ -45,8 +45,9 @@
    <view name="detailed,video,basic">
       <helpsystem name="help">
          <fontPath>./_inc/fonts/Versatile Bold.ttf</fontPath>
-         <fontSize>0.03</fontSize>
-         <pos>0.009 0.955</pos>
+         <fontSize>0.022</fontSize>
+         <pos>0.515 0.955</pos>
+         <origin>0.5 0.5</origin>
          <textColor>ffffff</textColor>
          <iconColor>ffffff</iconColor>
       </helpsystem>
@@ -86,9 +87,23 @@
          <path>./_inc/images/background_basic.png</path>
          <zIndex>1</zIndex>
       </image>
+      <image name="gamelistBackground" extra="true">
+         <origin>0 0</origin>
+         <pos>0.2 0.185</pos>
+         <size>0.6 0.765</size>
+         <path>./_inc/images/black40.png</path>
+         <zIndex>2</zIndex>
+      </image>
    </view>
    <view name="detailed,video">
-      <image name="background" extra="true">
+      <image name="gamelistBackground" extra="true">
+         <origin>0 0</origin>
+         <pos>0.0 0.0</pos>
+         <size>0.47 1.0</size>
+         <path>./_inc/images/black40.png</path>
+         <zIndex>2</zIndex>
+      </image>
+	  <image name="background" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
@@ -186,23 +201,25 @@
    </view>
    <view name="menu">
       <menuText name="menutitle">
+         <fontPath>./_inc/fonts/Exo2-Regular.ttf</fontPath>
          <color>FFFFFFFF</color>
-         <fontSize>.038</fontSize>
+         <fontSize>.036</fontSize>
       </menuText>
       <menuText name="menutext">
-         <fontSize>.038</fontSize>
+         <fontPath>./_inc/fonts/Exo2-Regular.ttf</fontPath>
+         <fontSize>.034</fontSize>
          <color>FFFFFFFF</color>>
-         <selectorColor>FFFFFFFF</selectorColor>>
+         <selectorColor>FFFFFFFF</selectorColor>
          <selectorColorEnd>FFFFFFFF</selectorColorEnd>
          <selectedColor>000000</selectedColor>
-         <separatorColor>0C3F53</separatorColor>>
+         <separatorColor>0C3F53</separatorColor>
       </menuText>
       <menuBackground name="menubg">
          <pos>0 0</pos>
          <size>1 1</size>
          <color>36083E50</color>
          <centerColor>36083E50</centerColor>
-         <cornerSize>5 5</cornerSize>
+         <cornerSize>3 3</cornerSize>
       </menuBackground>
       <menuTextEdit name="menutextedit">
          <inactive>./_inc/images/textinput_inactive.png</inactive>
@@ -210,30 +227,32 @@
       </menuTextEdit>
   </view>
   <!-- Battery -->
-	<view name="screen">
-		<!-- Clock -->
-		<text name="clock">
-			<origin>0 0</origin>
-			<pos>0.865 0.0175</pos>
-			<size>0.25 0.06</size>
-			<fontSize>0.04</fontSize>
-			<alignment>left</alignment>
-			<verticalAlignment>center</verticalAlignment>
-			<fontPath>${bodyFont}</fontPath>
-			<color>ffffff</color>
-		</text>
-		<!-- Battery -->
-		<batteryIndicator name="batteryIndicator">
-			<pos>0.022 0.018</pos> <!-- x=439.2 y=4.16 -->
-			<size>0.055 0.055</size> <!-- 33.6 x 22.4 -->
-			<full>/usr/bin/emulationstation/resources/battery/full.svg</full>
-			<at75>/usr/bin/emulationstation/resources/battery/75.svg</at75>
-			<at50>/usr/bin/emulationstation/resources/battery/50.svg</at50>
-			<at25>/usr/bin/emulationstation/resources/battery/25.svg</at25>
-			<empty>/usr/bin/emulationstation/resources/battery/empty.svg</empty>
-			<incharge>/usr/bin/emulationstation/resources/battery/incharge.svg</incharge>
-			<networkIcon>/usr/bin/emulationstation/resources/wifi.svg</networkIcon>
-			<color>ffffff</color>
-		</batteryIndicator>
-	</view>
+  <view name="screen">
+      <!-- Clock -->
+      <text name="clock">
+         <origin>0 0</origin>
+         <pos>0.862 0.0155</pos>
+         <size>0.25 0.05</size>
+         <fontPath>./_inc/fonts/Exo2-Regular.ttf</fontPath>
+         <fontSize>0.033</fontSize>
+         <alignment>left</alignment>
+         <verticalAlignment>center</verticalAlignment>
+         <color>ffffff</color>
+         <zIndex>1</zIndex>
+      </text>
+      <!-- Battery -->
+      <batteryIndicator name="batteryIndicator">
+         <pos>0.022 0.0175</pos> <!-- x=439.2 y=4.16 -->
+         <size>0.052 0.052</size> <!-- 33.6 x 22.4 -->
+         <full>/usr/bin/emulationstation/resources/battery/full.svg</full>
+         <at75>/usr/bin/emulationstation/resources/battery/75.svg</at75>
+         <at50>/usr/bin/emulationstation/resources/battery/50.svg</at50>
+         <at25>/usr/bin/emulationstation/resources/battery/25.svg</at25>
+         <empty>/usr/bin/emulationstation/resources/battery/empty.svg</empty>
+         <incharge>/usr/bin/emulationstation/resources/battery/incharge.svg</incharge>
+         <networkIcon>/usr/bin/emulationstation/resources/wifi.svg</networkIcon>
+         <color>ffffff</color>
+         <zIndex>1</zIndex>
+      </batteryIndicator>
+  </view>
 </theme>
