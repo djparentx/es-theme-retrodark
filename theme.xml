@@ -214,9 +214,9 @@
 		<!-- Clock -->
 		<text name="clock">
 			<origin>0 0</origin>
-			<pos>0.855 0.018</pos>
-			<size>0.3 0.06</size>
-			<fontSize>0.044</fontSize>
+			<pos>0.865 0.0175</pos>
+			<size>0.25 0.06</size>
+			<fontSize>0.04</fontSize>
 			<alignment>left</alignment>
 			<verticalAlignment>center</verticalAlignment>
 			<fontPath>${bodyFont}</fontPath>
@@ -225,7 +225,7 @@
 		<!-- Battery -->
 		<batteryIndicator name="batteryIndicator">
 			<pos>0.022 0.018</pos> <!-- x=439.2 y=4.16 -->
-			<size>0.06 0.06</size> <!-- 33.6 x 22.4 -->
+			<size>0.055 0.055</size> <!-- 33.6 x 22.4 -->
 			<full>/usr/bin/emulationstation/resources/battery/full.svg</full>
 			<at75>/usr/bin/emulationstation/resources/battery/75.svg</at75>
 			<at50>/usr/bin/emulationstation/resources/battery/50.svg</at50>
