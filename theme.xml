@@ -22,6 +22,12 @@
             <zIndex>2</zIndex>
             <path>./_inc/images/background.png</path>
          </image>
+         <image name="background_help" extra="true">
+            <path>./_inc/images/black55.png</path>
+            <origin>0 1</origin>
+            <pos>0 1</pos>
+            <size>1 0.060</size>
+         </image>		 
          <text name="systemInfo">
             <pos>0.0 0.8</pos>
             <backgroundColor>00000000</backgroundColor>
@@ -33,6 +39,7 @@
       </view>
    </feature>
    <view name="system">
+   <!--
       <helpsystem name="help">
          <fontPath>./_inc/fonts/SairaExtraCondensed-Medium.ttf</fontPath>
          <fontSize>0.0354</fontSize>
@@ -40,21 +47,23 @@
          <origin>0.5 0.5</origin>
          <textColor>FFFFFF</textColor>
          <iconColor>FFFFFF</iconColor>
-      </helpsystem>
+      </helpsystem> -->
    </view>
    <view name="detailed,video,basic">
-      <helpsystem name="help">
+    <!--    
+	<helpsystem name="help">
          <fontPath>./_inc/fonts/SairaExtraCondensed-Medium.ttf</fontPath>
          <fontSize>0.03</fontSize>
          <pos>0.515 0.96</pos>
          <origin>0.5 0.5</origin>
          <textColor>FFFFFF</textColor>
          <iconColor>FFFFFF</iconColor>
-      </helpsystem>
+      </helpsystem> -->
    </view>
    <view name="basic,detailed,video">
       <textlist name="gamelist">
          <selectorColor>c547e8</selectorColor>
+         <selectorColorEnd>c547e8</selectorColorEnd>
          <selectedColor>FFFFFF</selectedColor>
          <primaryColor>FFFFFF</primaryColor>
          <secondaryColor>8bfeff</secondaryColor>
@@ -67,15 +76,15 @@
    </view>
    <view name="detailed,video">
       <textlist name="gamelist">
-         <pos>0.02 0.075</pos>
-         <size>0.45 0.41</size>
+         <pos>0.02 0.04</pos>
+         <size>0.45 0.43</size>
          <alignment>left</alignment>
       </textlist>
    </view>
    <view name="basic">
       <textlist name="gamelist">
          <pos>0.2 0.25</pos>
-         <size>.6 0.7</size>
+         <size>.6 0.5</size>
          <alignment>center</alignment>
       </textlist>
    </view>
@@ -90,10 +99,16 @@
       <image name="gamelistBackground" extra="true">
          <origin>0 0</origin>
          <pos>0.2 0.185</pos>
-         <size>0.6 0.765</size>
+         <size>0.6 0.62</size>
          <path>./_inc/images/menuBackground.png</path>
          <zIndex>2</zIndex>
       </image>
+      <image name="background_help" extra="true">
+         <path>./_inc/images/black55.png</path>
+         <origin>0 1</origin>
+         <pos>0 1</pos>
+         <size>1 0.060</size>
+      </image>	  
    </view>
    <view name="detailed,video">
       <image name="gamelistBackground" extra="true">
@@ -109,6 +124,12 @@
          <size>0.47 0.5</size>
          <path>./_inc/images/menuBackground.png</path>
          <zIndex>2</zIndex>
+      </image>
+      <image name="background_help" extra="true">
+         <path>./_inc/images/black55.png</path>
+         <origin>0 1</origin>
+         <pos>0 1</pos>
+         <size>1 0.060</size>
       </image>
 	  <image name="background" extra="true">
          <origin>0 0</origin>
@@ -225,9 +246,9 @@
          <fontPath>./_inc/fonts/Exo2-Regular.ttf</fontPath>
          <fontSize>.034</fontSize>
          <color>FFFFFFFF</color>>
-         <selectorColor>FFFFFFFF</selectorColor>
-         <selectorColorEnd>FFFFFFFF</selectorColorEnd>
-         <selectedColor>000000</selectedColor>
+         <selectorColor>c547e8</selectorColor>
+         <selectorColorEnd>c547e8</selectorColorEnd>
+         <selectedColor>FFFFFF</selectedColor>
          <separatorColor>0C3F53</separatorColor>
       </menuText>
       <menuBackground name="menubg">
@@ -247,7 +268,7 @@
       <!-- Clock -->
       <text name="clock">
          <origin>0 0</origin>
-         <pos>0.89 0.004</pos>
+         <pos>0.89 0.946</pos>
          <size>0.25 0.04</size>
          <fontPath>./_inc/fonts/Exo2-Regular.ttf</fontPath>
          <fontSize>0.029</fontSize>
@@ -258,7 +279,7 @@
       </text>
       <!-- Battery -->
       <batteryIndicator name="batteryIndicator">
-         <pos>0.012 0.003</pos> <!-- x=439.2 y=4.16 -->
+         <pos>0.012 0.9455</pos> <!-- x=439.2 y=4.16 -->
          <size>0.05 0.05</size> <!-- 33.6 x 22.4 -->
          <full>/usr/bin/emulationstation/resources/battery/full.svg</full>
          <at75>/usr/bin/emulationstation/resources/battery/75.svg</at75>
