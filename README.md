@@ -8,10 +8,10 @@ _inc folder along with all logo assets.
 <img width="640" height="480" alt="dArkOSen-boot" src="https://github.com/user-attachments/assets/f9782d84-d0a7-4acc-a153-39eb7161b119" />
 
 
-<img width="3269" height="2452" alt="20260826_015049" src="https://github.com/user-attachments/assets/054e6097-ed4b-4e64-b2dc-32e118076ca1" />
+<img width="1024" height="768" alt="system-view" src="https://github.com/user-attachments/assets/75506732-ba81-42f9-aab1-d7a76ba7ba14" />
 
 
-<img width="3191" height="2469" alt="20260826_112419" src="https://github.com/user-attachments/assets/89d4f733-0ac9-43c4-be2a-5797789ccbd8" />
+<img width="1024" height="768" alt="gamelist-view" src="https://github.com/user-attachments/assets/32ad9f82-78f4-4aba-ad3a-9baeb3da601d" />
 
 
-<img width="3178" height="2384" alt="20260826_112604" src="https://github.com/user-attachments/assets/fa50af79-6fc1-46a0-9944-f951de96b19d" />
+<img width="1024" height="768" alt="menu-view" src="https://github.com/user-attachments/assets/b30c093e-cf40-4b1f-b078-cb2605891134" />
