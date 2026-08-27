@@ -25,7 +25,7 @@
          <text name="systemInfo">
             <pos>0.0 0.8</pos>
             <backgroundColor>00000000</backgroundColor>
-            <color>ffffff</color>
+            <color>FFFFFF</color>
             <fontPath>./_inc/fonts/Versatile Bold.ttf</fontPath>
             <fontSize>0.048</fontSize>
             <zIndex>5</zIndex>
@@ -38,9 +38,21 @@
          <fontSize>0.022</fontSize>
          <pos>0.515 0.955</pos>
          <origin>0.5 0.5</origin>
-         <textColor>ffffff</textColor>
-         <iconColor>ffffff</iconColor>
+         <textColor>FFFFFF</textColor>
+         <iconColor>FFFFFF</iconColor>
       </helpsystem>
+	  <image name="background_help" extra="true">
+         <path>./_inc/images/black55.png</path>
+         <origin>0 1</origin>
+         <pos>0 1</pos>
+         <size>1 0.070</size>
+      </image>
+	  <image name="background_topbar" extra="true">
+         <path>./_inc/images/black55.png</path>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 0.050</size>
+      </image>		  
    </view>
    <view name="detailed,video,basic">
       <helpsystem name="help">
@@ -48,15 +60,27 @@
          <fontSize>0.022</fontSize>
          <pos>0.515 0.955</pos>
          <origin>0.5 0.5</origin>
-         <textColor>ffffff</textColor>
-         <iconColor>ffffff</iconColor>
+         <textColor>FFFFFF</textColor>
+         <iconColor>FFFFFF</iconColor>
       </helpsystem>
+	  <image name="background_help" extra="true">
+         <path>./_inc/images/black55.png</path>
+         <origin>0 1</origin>
+         <pos>0 1</pos>
+         <size>1 0.070</size>
+      </image>
+	  <image name="background_topbar" extra="true">
+         <path>./_inc/images/black55.png</path>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 0.050</size>
+      </image>
    </view>
    <view name="basic,detailed,video">
       <textlist name="gamelist">
          <selectorColor>c547e8</selectorColor>
-         <selectedColor>ffffff</selectedColor>
-         <primaryColor>ffffff</primaryColor>
+         <selectedColor>FFFFFF</selectedColor>
+         <primaryColor>FFFFFF</primaryColor>
          <secondaryColor>8bfeff</secondaryColor>
          <fontPath>./_inc/fonts/EurostileRoundExtended-Regular.ttf</fontPath>
          <fontSize>0.030</fontSize>
@@ -67,8 +91,8 @@
    </view>
    <view name="detailed,video">
       <textlist name="gamelist">
-         <pos>0.02 0.09</pos>
-         <size>0.45 0.85</size>
+         <pos>0.02 0.075</pos>
+         <size>0.45 0.405</size>
          <alignment>left</alignment>
       </textlist>
    </view>
@@ -91,7 +115,7 @@
          <origin>0 0</origin>
          <pos>0.2 0.185</pos>
          <size>0.6 0.765</size>
-         <path>./_inc/images/black40.png</path>
+         <path>./_inc/images/menuBackground.png</path>
          <zIndex>2</zIndex>
       </image>
    </view>
@@ -100,7 +124,14 @@
          <origin>0 0</origin>
          <pos>0.0 0.0</pos>
          <size>0.47 1.0</size>
-         <path>./_inc/images/black40.png</path>
+         <path>./_inc/images/menuBackground.png</path>
+         <zIndex>2</zIndex>
+      </image>
+      <image name="descBackground" extra="true">
+         <origin>0 0</origin>
+         <pos>0.0 0.50</pos>
+         <size>0.47 0.5</size>
+         <path>./_inc/images/menuBackground.png</path>
          <zIndex>2</zIndex>
       </image>
 	  <image name="background" extra="true">
@@ -151,7 +182,7 @@
       </video>
    </view>
    <view name="detailed,video">
-      <text name="md_lbl_releasedate, md_lbl_players, md_lbl_rating, md_rating, md_players, md_releasedate">
+      <text name="md_lbl_releasedate, md_lbl_genre, md_lbl_rating, md_rating, md_genre, md_releasedate">
          <fontPath>./_inc/fonts/EurostileRoundExtended-Regular.ttf</fontPath>
          <fontSize>0.025</fontSize>
       </text>
@@ -159,7 +190,7 @@
          <origin>0.5 0.5</origin>
          <pos>0.880 0.34</pos>
          <size>0.6 0.6</size>
-         <color>ffffff</color>
+         <color>FFFFFF</color>
          <zIndex>2</zIndex>
       </text>
       <rating name="md_rating">
@@ -170,34 +201,43 @@
          <filledPath>./_inc/images/star_full.png</filledPath>
          <unfilledPath>./_inc/images/star_hollow.png</unfilledPath>
       </rating>
-      <text name="md_lbl_players">
+      <text name="md_lbl_genre">
          <origin>0.5 0.5</origin>
          <pos>0.880 0.27</pos>
          <size>0.6 0.6</size>
-         <color>ffffff</color>
+         <color>FFFFFF</color>
          <zIndex>2</zIndex>
       </text>
-      <text name="md_players">
+      <text name="md_genre">
          <origin>0.5 0.5</origin>
-         <pos>0.980 0.27</pos>
+         <pos>0.970 0.27</pos>
          <size>0.6 0.6</size>
-         <color>ffffff</color>
+         <color>FFFFFF</color>
          <zIndex>2</zIndex>
       </text>
       <text name="md_lbl_releasedate">
          <origin>0.5 0.5</origin>
          <pos>0.880 0.305</pos>
          <size>0.6 0.6</size>
-         <color>ffffff</color>
+         <color>FFFFFF</color>
          <zIndex>2</zIndex>
       </text>
       <datetime name="md_releasedate">
          <origin>0.5 0.5</origin>
          <pos>1.005 0.305</pos>
          <size>0.6 0.6</size>
-         <color>ffffff</color>
+         <color>FFFFFF</color>
          <zIndex>2</zIndex>
       </datetime>
+	  <text name="md_description">
+         <origin>0.0 0.0</origin>
+         <pos>0.02 0.52</pos>
+         <size>0.44 0.39</size>
+         <color>FFFFFF</color>
+         <fontPath>./_inc/fonts/Exo2-Regular.ttf</fontPath>
+         <fontSize>.036</fontSize>
+         <zIndex>3</zIndex>
+      </text>	
    </view>
    <view name="menu">
       <menuText name="menutitle">
@@ -219,7 +259,7 @@
          <size>1 1</size>
          <color>36083E50</color>
          <centerColor>36083E50</centerColor>
-         <cornerSize>3 3</cornerSize>
+         <cornerSize>0 0</cornerSize>
       </menuBackground>
       <menuTextEdit name="menutextedit">
          <inactive>./_inc/images/textinput_inactive.png</inactive>
@@ -231,19 +271,19 @@
       <!-- Clock -->
       <text name="clock">
          <origin>0 0</origin>
-         <pos>0.862 0.0155</pos>
-         <size>0.25 0.05</size>
+         <pos>0.88 0.004</pos>
+         <size>0.25 0.04</size>
          <fontPath>./_inc/fonts/Exo2-Regular.ttf</fontPath>
-         <fontSize>0.033</fontSize>
+         <fontSize>0.028</fontSize>
          <alignment>left</alignment>
          <verticalAlignment>center</verticalAlignment>
-         <color>ffffff</color>
+         <color>FFFFFF</color>
          <zIndex>1</zIndex>
       </text>
       <!-- Battery -->
       <batteryIndicator name="batteryIndicator">
-         <pos>0.022 0.0175</pos> <!-- x=439.2 y=4.16 -->
-         <size>0.052 0.052</size> <!-- 33.6 x 22.4 -->
+         <pos>0.02 0.004</pos> <!-- x=439.2 y=4.16 -->
+         <size>0.04 0.04</size> <!-- 33.6 x 22.4 -->
          <full>/usr/bin/emulationstation/resources/battery/full.svg</full>
          <at75>/usr/bin/emulationstation/resources/battery/75.svg</at75>
          <at50>/usr/bin/emulationstation/resources/battery/50.svg</at50>
@@ -251,7 +291,7 @@
          <empty>/usr/bin/emulationstation/resources/battery/empty.svg</empty>
          <incharge>/usr/bin/emulationstation/resources/battery/incharge.svg</incharge>
          <networkIcon>/usr/bin/emulationstation/resources/wifi.svg</networkIcon>
-         <color>ffffff</color>
+         <color>FFFFFF</color>
          <zIndex>1</zIndex>
       </batteryIndicator>
   </view>
