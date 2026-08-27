@@ -5,9 +5,6 @@ Almost all system icons are populated. If you find one is missing or would simpl
 _inc folder along with all logo assets.
 
 
-<img width="1024" height="768" alt="dArkOSen-boot" src="https://github.com/user-attachments/assets/f9782d84-d0a7-4acc-a153-39eb7161b119" />
-
-
 <img width="1024" height="768" alt="system-view" src="https://github.com/user-attachments/assets/75506732-ba81-42f9-aab1-d7a76ba7ba14" />
 
 
