@@ -38,28 +38,6 @@
          </text>
       </view>
    </feature>
-   <view name="system">
-   <!--
-      <helpsystem name="help">
-         <fontPath>./_inc/fonts/SairaExtraCondensed-Medium.ttf</fontPath>
-         <fontSize>0.0354</fontSize>
-         <pos>0.515 0.96</pos>
-         <origin>0.5 0.5</origin>
-         <textColor>FFFFFF</textColor>
-         <iconColor>FFFFFF</iconColor>
-      </helpsystem> -->
-   </view>
-   <view name="detailed,video,basic">
-    <!--    
-	<helpsystem name="help">
-         <fontPath>./_inc/fonts/SairaExtraCondensed-Medium.ttf</fontPath>
-         <fontSize>0.03</fontSize>
-         <pos>0.515 0.96</pos>
-         <origin>0.5 0.5</origin>
-         <textColor>FFFFFF</textColor>
-         <iconColor>FFFFFF</iconColor>
-      </helpsystem> -->
-   </view>
    <view name="basic,detailed,video">
       <textlist name="gamelist">
          <selectorColor>c547e8</selectorColor>
@@ -73,13 +51,12 @@
          <scrollSound>./_inc/sounds/Move.wav</scrollSound>
          <zIndex>3</zIndex>
       </textlist>
-   </view>
-   <view name="detailed,video">
-      <textlist name="gamelist">
-         <pos>0.02 0.04</pos>
-         <size>0.45 0.43</size>
-         <alignment>left</alignment>
-      </textlist>
+      <image name="background_help" extra="true">
+         <path>./_inc/images/black55.png</path>
+         <origin>0 1</origin>
+         <pos>0 1</pos>
+         <size>1 0.060</size>
+      </image>	 
    </view>
    <view name="basic">
       <textlist name="gamelist">
@@ -87,8 +64,6 @@
          <size>.6 0.5</size>
          <alignment>center</alignment>
       </textlist>
-   </view>
-   <view name="basic">
       <image name="background" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -103,14 +78,13 @@
          <path>./_inc/images/menuBackground.png</path>
          <zIndex>2</zIndex>
       </image>
-      <image name="background_help" extra="true">
-         <path>./_inc/images/black55.png</path>
-         <origin>0 1</origin>
-         <pos>0 1</pos>
-         <size>1 0.060</size>
-      </image>	  
    </view>
    <view name="detailed,video">
+      <textlist name="gamelist">
+         <pos>0.02 0.04</pos>
+         <size>0.45 0.43</size>
+         <alignment>left</alignment>
+      </textlist>
       <image name="gamelistBackground" extra="true">
          <origin>0 0</origin>
          <pos>0.0 0.0</pos>
@@ -124,12 +98,6 @@
          <size>0.47 0.5</size>
          <path>./_inc/images/menuBackground.png</path>
          <zIndex>2</zIndex>
-      </image>
-      <image name="background_help" extra="true">
-         <path>./_inc/images/black55.png</path>
-         <origin>0 1</origin>
-         <pos>0 1</pos>
-         <size>1 0.060</size>
       </image>
 	  <image name="background" extra="true">
          <origin>0 0</origin>
@@ -158,27 +126,6 @@
          <maxSize>0.4 0.23</maxSize>
          <zIndex>4</zIndex>
       </image>
-   </view>
-   <view name="detailed">
-      <image name="md_image">
-         <origin>0.5 0.5</origin>
-         <pos>0.683 0.673</pos>
-         <maxSize>0.362 0.47</maxSize>
-         <zIndex>3</zIndex>
-      </image>
-   </view>
-   <view name="video">
-      <video name="md_video">
-         <origin>0.5 0.5</origin>
-         <pos>0.711 0.66</pos>
-         <maxSize>0.352 0.51</maxSize>
-         <delay>2</delay>
-         <zIndex>3</zIndex>
-         <showSnapshotNoVideo>true</showSnapshotNoVideo>
-         <showSnapshotDelay>true</showSnapshotDelay>
-      </video>
-   </view>
-   <view name="detailed,video">
       <text name="md_lbl_releasedate, md_lbl_genre, md_lbl_rating, md_rating, md_genre, md_releasedate">
          <fontPath>./_inc/fonts/EurostileRoundCondensed-Regular.ttf</fontPath>
          <fontSize>0.025</fontSize>
@@ -235,6 +182,25 @@
          <fontSize>.034</fontSize>
          <zIndex>3</zIndex>
       </text>	
+   </view>
+   <view name="detailed">
+      <image name="md_image">
+         <origin>0.5 0.5</origin>
+         <pos>0.683 0.673</pos>
+         <maxSize>0.362 0.47</maxSize>
+         <zIndex>3</zIndex>
+      </image>
+   </view>
+   <view name="video">
+      <video name="md_video">
+         <origin>0.5 0.5</origin>
+         <pos>0.711 0.66</pos>
+         <maxSize>0.352 0.51</maxSize>
+         <delay>2</delay>
+         <zIndex>3</zIndex>
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <showSnapshotDelay>true</showSnapshotDelay>
+      </video>
    </view>
    <view name="menu">
       <menuText name="menutitle">
