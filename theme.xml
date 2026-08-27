@@ -36,24 +36,27 @@
             <fontSize>0.048</fontSize>
             <zIndex>5</zIndex>
          </text>
-         <helpsystem name="help">
-            <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
-            <fontSize>0.03</fontSize>
-            <pos>0.515 1.5</pos>
-            <origin>0.5 0.5</origin>
-            <textColor>ffffff</textColor>
-            <iconColor>ffffff</iconColor>
-         </helpsystem>
       </view>
    </feature>
-   <view name="basic,detailed,video">
+   <view name="system">
       <helpsystem name="help">
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontPath>./_inc/fonts/Versatile Bold.ttf</fontPath>
+         <fontSize>0.03</fontSize>
+         <pos>0.515 1.5</pos>
+         <textColor>ffffff</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+   </view>
+   <view name="detailed,video,basic">
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/Versatile Bold.ttf</fontPath>
          <fontSize>0.03</fontSize>
          <pos>0.009 1.5</pos>
          <textColor>ffffff</textColor>
          <iconColor>ffffff</iconColor>
       </helpsystem>
+   </view>
+   <view name="basic,detailed,video">
       <textlist name="gamelist">
          <selectorColor>c547e8</selectorColor>
          <selectorColorEnd>c547e8</selectorColorEnd>
@@ -249,7 +252,7 @@
       <!-- Clock -->
       <text name="clock">
          <origin>0 0</origin>
-         <pos>0.89 0.946</pos>
+         <pos>0.876 0.9465</pos>
          <size>0.25 0.04</size>
          <fontPath>./_inc/fonts/Exo2-Regular.ttf</fontPath>
          <fontSize>0.029</fontSize>
