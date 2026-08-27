@@ -36,9 +36,24 @@
             <fontSize>0.048</fontSize>
             <zIndex>5</zIndex>
          </text>
+         <helpsystem name="help">
+            <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+            <fontSize>0.03</fontSize>
+            <pos>0.515 1.5</pos>
+            <origin>0.5 0.5</origin>
+            <textColor>ffffff</textColor>
+            <iconColor>ffffff</iconColor>
+         </helpsystem>
       </view>
    </feature>
    <view name="basic,detailed,video">
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontSize>0.03</fontSize>
+         <pos>0.009 1.5</pos>
+         <textColor>ffffff</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
       <textlist name="gamelist">
          <selectorColor>c547e8</selectorColor>
          <selectorColorEnd>c547e8</selectorColorEnd>
