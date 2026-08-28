@@ -36,18 +36,16 @@
             <fontSize>0.048</fontSize>
             <zIndex>5</zIndex>
          </text>
+         <helpsystem name="help">
+            <fontPath>./_inc/fonts/Versatile Bold.ttf</fontPath>
+            <fontSize>0.03</fontSize>
+            <pos>0.515 1.5</pos>
+            <textColor>ffffff</textColor>
+            <iconColor>ffffff</iconColor>
+         </helpsystem>
       </view>
    </feature>
-   <view name="system">
-      <helpsystem name="help">
-         <fontPath>./_inc/fonts/Versatile Bold.ttf</fontPath>
-         <fontSize>0.03</fontSize>
-         <pos>0.515 1.5</pos>
-         <textColor>ffffff</textColor>
-         <iconColor>ffffff</iconColor>
-      </helpsystem>
-   </view>
-   <view name="detailed,video,basic">
+   <view name="basic,detailed,video">
       <helpsystem name="help">
          <fontPath>./_inc/fonts/Versatile Bold.ttf</fontPath>
          <fontSize>0.03</fontSize>
@@ -55,8 +53,6 @@
          <textColor>ffffff</textColor>
          <iconColor>ffffff</iconColor>
       </helpsystem>
-   </view>
-   <view name="basic,detailed,video">
       <textlist name="gamelist">
          <selectorColor>c547e8</selectorColor>
          <selectorColorEnd>c547e8</selectorColorEnd>
@@ -157,7 +153,7 @@
       </text>
       <rating name="md_rating">
          <origin>0.5 0.5</origin>
-         <pos>0.70 0.35</pos>
+         <pos>0.71 0.35</pos>
          <size>0.05 0.05</size>
          <zIndex>2</zIndex>
          <filledPath>./_inc/images/star_full.png</filledPath>
@@ -172,7 +168,7 @@
       </text>
       <text name="md_genre">
          <origin>0.5 0.5</origin>
-         <pos>0.970 0.27</pos>
+         <pos>0.98 0.27</pos>
          <size>0.6 0.6</size>
          <color>FFFFFF</color>
          <zIndex>2</zIndex>
@@ -186,7 +182,7 @@
       </text>
       <datetime name="md_releasedate">
          <origin>0.5 0.5</origin>
-         <pos>0.99 0.305</pos>
+         <pos>1.01 0.305</pos>
          <size>0.6 0.6</size>
          <color>FFFFFF</color>
          <zIndex>2</zIndex>
