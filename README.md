@@ -15,7 +15,7 @@ Screenshots taken from an R36S:
 <img width="640" height="480" alt="basic-view-640x480" src="https://github.com/user-attachments/assets/b8f7ddac-7491-4066-a66c-98ce8e7221cc" />
 
 
-<img width="640" height="480" alt="menu-view-640x480" src="https://github.com/user-attachments/assets/e7af554c-9445-4b4f-b414-40fca67b4806" />
+<img width="640" height="480" alt="menu-view-640x480" src="https://github.com/user-attachments/assets/1f3209fa-2401-456e-8d98-6682fdaaaf9c" />
 
 ---
 
